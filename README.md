@@ -27,7 +27,7 @@ jobs:
   cleanup-cache:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
       - name: Purge old GitHub Actions Cache entries
         uses: luxass/purge-action-cache@v0.3.0
         with:
